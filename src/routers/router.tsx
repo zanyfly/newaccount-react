@@ -1,7 +1,7 @@
 import {createBrowserRouter, NavLink, Outlet} from "react-router-dom";
 import ErrorPage from "../components/error-page";
 import React from "react";
-import MainLayout from "../components/layout/MainLayout";
+import MainLayout from "../layout/MainLayout";
 import WelcomeRoutes from "./welcomeRoute";
 
 const router = createBrowserRouter([

@@ -1,7 +1,7 @@
 import {useNavigate, useRouteError} from "react-router-dom";
 import React, {useEffect} from "react";
 
-export default function ErrorPage(): React.FC {
+export default function ErrorPage() {
     // 如果输入了错误页面自动返回
     // const navTo = useNavigate()
     // useEffect(()=>{
